@@ -1,15 +1,27 @@
 {
   "routes": [
     {
-      "route": "/*",
+      "route": "/index.html",
+      "headers": {
+        "cache-control": "no-cache"
+      }
+    },
+    {
+      "route": "/styles.css",
       "headers": {
         "cache-control": "public, max-age=31536000, immutable"
       }
     },
     {
-      "route": "/index.html",
+      "route": "/script.js",
       "headers": {
-        "cache-control": "no-cache"
+        "cache-control": "public, max-age=31536000, immutable"
+      }
+    },
+    {
+      "route": "/*.{png,jpg,gif,svg,ico,json}",
+      "headers": {
+        "cache-control": "public, max-age=31536000, immutable"
       }
     }
   ],
