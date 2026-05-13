@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "status": "OK",
+    "code": 200,
+    "type": "ok",
+    "locale": "en_US",
+    "requestId": "62d85707-cff5-4320-b160-dd669d928768",
+    "generatedAt": "2026-03-23T18:05:19.078Z",
+    "total": 1,
+    "seed": "10Y4_A.pbv_jfUKrPrvdlnFuPJQizhpVyRaAw_I5XSK2p8zI9VDsiM",
+    "isTest": true,
+    "message": "SUCCESS"
+  },
+  "data": [
+    {
+      "flightNumber": "AU-6332",
+      "airline": {
+        "name": "Aurora Skyways",
+        "code": "AU",
+        "region": "Europe"
+      },
+      "route": {
+        "origin": {
+          "code": "CAI",
+          "name": "Cairo International Airport",
+          "city": "Cairo",
+          "country": "Egypt"
+        },
+        "destination": {
+          "code": "MIA",
+          "name": "Miami International Airport",
+          "city": "Miami",
+          "country": "USA"
+        },
+        "distance": "10450 km",
+        "type": "International"
+      },
+      "schedule": {
+        "departure": "2026-03-26T05:04:19.074Z",
+        "arrival": "2026-03-26T16:37:19.074Z",
+        "duration": "11h 33m",
+        "timezone": "UTC"
+      },
+      "aircraft": {
+        "model": "Boeing 777-300ER",
+        "manufacturer": "Boeing",
+        "registration": "NDFJLZ"
+      },
+      "status": "Landed",
+      "gate": "149",
+      "terminal": "1",
+      "class": "Business",
+      "price": {
+        "base": 2610.4,
+        "taxes": 360.66,
+        "total": 2971.06,
+        "currency": "USD"
+      },
+      "booking": {
+        "available": 13,
+        "booked": 29,
+        "capacity": 42,
+        "occupancyRate": "69%"
+      },
+      "baggage": {
+        "carry": "2 x 10kg",
+        "checked": "2 x 32kg",
+        "total": "84kg"
+      },
+      "passengers": [
+        {
+          "name": "Evelyn Macias",
+          "seat": "9B",
+          "class": "Business"
+        },
+        {
+          "name": "Brielle Bell",
+          "seat": "10B",
+          "class": "Business"
+        },
+        {
+          "name": "Brenda Street",
+          "seat": "8D",
+          "class": "Business"
+        },
+        {
+          "name": "Brody Whitaker",
+          "seat": "6D",
+          "class": "Business"
+        },
+        {
+          "name": "Wayne Jarvis",
+          "seat": "5C",
+          "class": "Business"
+        }
+      ],
+      "amenities": [
+        "Gourmet meals",
+        "Lie flat seats",
+        "Priority boarding",
+        "Lounge access",
+        "Premium beverages",
+        "Enhanced privacy",
+        "Fast track security",
+        "Amenity kit",
+        "In-flight entertainment",
+        "WiFi available"
+      ]
+    }
+  ]
+}
