@@ -1,7 +1,7 @@
 // ===== Configuration =====
 const CONFIG = {
     API_KEY: 'bede3b3cd1be483eb17120616262303',
-    BASE_URL: 'http://api.weatherapi.com/v1',
+    BASE_URL: 'https://api.weatherapi.com/v1',
     FORECAST_DAYS: 1 // Get 1 day for hourly forecast
 };
 
